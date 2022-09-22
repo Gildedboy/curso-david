@@ -1,0 +1,46 @@
+.attraction {
+  background-image: url(../img/attraction.jpg);
+  color: white;
+  margin: 0px;
+  width: cover;
+  background-size: cover;
+}
+.container {
+  margin: 0;
+  width: cover;
+}
+
+h1#attraction-title {
+  text-align: justify;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 48px;
+  font-weight: bold;
+  border: 1px solid red;
+  width: 50%;
+}
+
+p#attraction-text {
+  text-align: justify;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid red;
+  width: 50%;
+}
+
+button#attraction-button {
+  background-color: #ffdb58;
+  color: white;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  border: 0px;
+  padding: 15px;
+}
+
+body {
+  display: flex;
+  margin: 0px;
+}
